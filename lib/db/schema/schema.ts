@@ -1,3 +1,5 @@
+import {driver} from '../client'
+
 export const setupSchema = async () => {
   const session = driver.session()
   try {
